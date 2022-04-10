@@ -8,7 +8,7 @@ test {
 tasks.withType(Test) {
     useTestNG()
     // useJUnitPlatform()
-    jvmArgs '--enable-preview'
+   // jvmArgs '--enable-preview'
 }
 
 
