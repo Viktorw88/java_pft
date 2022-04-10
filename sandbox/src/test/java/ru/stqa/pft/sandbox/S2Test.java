@@ -1,5 +1,7 @@
 package ru.stqa.pft.sandbox;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
@@ -9,6 +11,9 @@ import org.testng.Assert;
 
 
     @Test
+    @Owner("Victor")
+    @Description("allure testng report")
+
     public void testArea() {
       S s = new S(5);
       int x = 10;

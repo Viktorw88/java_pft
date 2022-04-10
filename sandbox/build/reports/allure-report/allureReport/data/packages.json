@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.stqa.pft.sandbox.S2Test",
+    "children" : [ {
+      "name" : "testArea",
+      "uid" : "f0c9bf3121721462",
+      "parentUid" : "d9d1c03b8227c94cda272428c3947e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649616740353,
+        "stop" : 1649616740375,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.stqa.pft.sandbox.S2Test"
+  } ]
+}

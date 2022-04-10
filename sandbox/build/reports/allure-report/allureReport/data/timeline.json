@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-IJDU3H6H",
+    "children" : [ {
+      "name" : "16148@LAPTOP-IJDU3H6H.Test worker(1)",
+      "children" : [ {
+        "name" : "testArea",
+        "uid" : "f0c9bf3121721462",
+        "parentUid" : "82d2fb9427d45753d8f1e7dd52d3abf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649616740353,
+          "stop" : 1649616740375,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82d2fb9427d45753d8f1e7dd52d3abf0"
+    } ],
+    "uid" : "04741b632d42c77e2d1e0d391a2f447f"
+  } ]
+}
