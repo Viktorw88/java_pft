@@ -1,3 +1,26 @@
 apply plugin: 'java'
-apply plugin: 'application'
-mainClassName = "MyJava"
+
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+    jvmArgs '--enable-preview'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+
+        testImplementation 'com.codeborne:selenide:6.3.5'
+        implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testImplementation 'io.rest-assured:rest-assured:5.0.0'
+    testImplementation 'io.rest-assured:json-schema-validator:5.0.0'
+    testImplementation 'io.rest-assured:xml-path:5.0.0'
+    testImplementation 'io.rest-assured:json-path:5.0.0'
+
+}
+
+
