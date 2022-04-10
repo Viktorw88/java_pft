@@ -1,8 +1,13 @@
 apply plugin: 'java'
 
+test {
+    useTestNG()
+
+}
 
 tasks.withType(Test) {
-    useJUnitPlatform()
+    useTestNG()
+    // useJUnitPlatform()
     jvmArgs '--enable-preview'
 }
 
@@ -13,6 +18,8 @@ repositories {
 
 dependencies {
 
+// https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
 
         testImplementation 'com.codeborne:selenide:6.3.5'
         implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
